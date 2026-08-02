@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Royal AI Studio — премиальные рекламные AI-ролики для брендов, девелоперов и агентств.">
+  <meta name="theme-color" content="#000000">
+  <title>Royal AI Studio — премиальные AI-ролики</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner section-shell">
+      <a class="brand" href="#top" aria-label="Royal AI Studio — на главную">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 72 56">
+            <path class="crown-outline" d="M10 39 7 17l17 14L36 7l12 24 17-14-3 22H10Z"/>
+            <path class="crown-detail" d="m10 39 14-8 12 8 12-8 14 8M24 31l12-24 12 24M14 46h44M19 51h34"/>
+          </svg>
+        </span>
+        <span class="brand-copy">
+          <strong>Royal AI Studio</strong>
+          <small>Студия рекламных роликов</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span>Меню</span><i aria-hidden="true"></i>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Главное меню">
+        <a href="#cases">Кейсы</a>
+        <a href="#services">Услуги</a>
+        <a href="#process">Этапы</a>
+        <a href="#about">О студии</a>
+        <a class="nav-cta" href="#brief">Обсудить проект</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Рекламный AI-продакшн</p>
+        <h1>Видео, которое<br>выглядит <em>дорого.</em></h1>
+        <p class="hero-lead">Создаём цельные рекламные истории с сильной идеей, выразительным визуалом и киношной подачей.</p>
+        <p class="hero-text">Берём проект от первого замысла до готового мастер-ролика. Разрабатываем концепцию, генерируем сцены, создаём движение, собираем монтаж, звук и версии под нужные площадки.</p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#brief">Обсудить проект</a>
+          <a class="button button-ghost" href="#cases">Смотреть кейсы</a>
+        </div>
+
+        <div class="hero-meta" aria-label="Что входит в производство">
+          <div><strong>Концепция</strong><span>Идея, сценарий и визуальный язык</span></div>
+          <div><strong>Производство</strong><span>Сцены, движение, монтаж и звук</span></div>
+          <div><strong>Адаптации</strong><span>Форматы для рекламы и презентаций</span></div>
+        </div>
+      </div>
+
+      <div class="hero-media reveal" aria-label="Анимированные визуалы студии">
+        <div class="hero-gif hero-gif-one is-active" data-hero-gif>
+          <img src="./assets/hero-01.gif" alt="Анимированный визуал Сатурна" data-hero-image>
+        </div>
+        <div class="hero-gif hero-gif-two" data-hero-gif>
+          <img src="./assets/hero-02.gif" alt="Анимированный футуристический объект" data-hero-image>
+        </div>
+        <div class="hero-gif hero-gif-three" data-hero-gif>
+          <img src="./assets/hero-03.gif" alt="Анимированный спортивный автомобиль" data-hero-image>
+        </div>
+
+        <div class="hero-media-fallback" aria-hidden="true">
+          <span>Добавьте GIF</span>
+          <strong>hero-01.gif<br>hero-02.gif<br>hero-03.gif</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="cases" id="cases">
+      <div class="section-shell cases-heading cases-manifesto reveal">
+        <p class="eyebrow">Избранные работы</p>
+        <h2>
+          <span>Работы, которые</span>
+          <strong>останавливают</strong>
+          <strong>скролл.</strong>
+        </h2>
+        <p class="cases-intro">Три рекламных проекта, в которых идея, ритм и визуальный язык работают на внимание бренда.</p>
+      </div>
+
+      <article class="case-project section-shell reveal">
+        <div class="case-copy">
+          <h3>Setl Group</h3>
+          <p>Рекламный AI-ролик для девелопера. Архитектурный визуал, атмосфера проекта и премиальная подача без классической съёмочной группы.</p>
+        </div>
+
+        <div class="case-video-wrap">
+          <video class="case-video" muted loop playsinline preload="metadata" data-case-video>
+            <source src="./case-01.mp4" type="video/mp4">
+            <source src="./case-01.webm" type="video/webm">
+          </video>
+          <div class="case-video-fallback">Добавьте файл case-01.mp4</div>
+          <button class="video-toggle" type="button" data-video-toggle aria-label="Поставить видео на паузу">Пауза</button>
+        </div>
+      </article>
+
+      <article class="case-project section-shell reveal">
+        <div class="case-copy">
+          <h3>ЦИНОВИТ</h3>
+          <p>Предметная съёмка без павильона. Материал, свет, движение и продуктовая эстетика полностью синтезированы и собраны в цельный рекламный ролик.</p>
+        </div>
+
+        <div class="case-video-wrap">
+          <video class="case-video" muted loop playsinline preload="metadata" data-case-video>
+            <source src="./case-02.mp4" type="video/mp4">
+            <source src="./case-02.webm" type="video/webm">
+          </video>
+          <div class="case-video-fallback">Добавьте файл case-02.mp4</div>
+          <button class="video-toggle" type="button" data-video-toggle aria-label="Поставить видео на паузу">Пауза</button>
+        </div>
+      </article>
+
+      <article class="case-project section-shell reveal">
+        <div class="case-copy">
+          <h3>ЦЕНТРО<wbr>ПАРК</h3>
+          <p>Презентационный AI-ролик для жилого комплекса. Пространство, архитектура и настроение проекта показаны как законченный образ будущей жизни.</p>
+        </div>
+
+        <div class="case-video-wrap">
+          <video class="case-video" muted loop playsinline preload="metadata" data-case-video>
+            <source src="./case-03.mp4" type="video/mp4">
+            <source src="./case-03.webm" type="video/webm">
+          </video>
+          <div class="case-video-fallback">Добавьте файл case-03.mp4</div>
+          <button class="video-toggle" type="button" data-video-toggle aria-label="Поставить видео на паузу">Пауза</button>
+        </div>
+      </article>
+    </section>
+
+    <section class="services section-shell" id="services">
+      <div class="showcase-heading reveal">
+        <p class="eyebrow">Система производства</p>
+        <h2>Три слоя одного сильного ролика.</h2>
+        <p>От первой идеи до готового набора версий для рекламных площадок.</p>
+      </div>
+
+      <div class="service-showcase">
+        <article class="service-showcase-card service-card-dark reveal">
+          <div class="service-card-top"><span>A / 01</span><i class="service-figure figure-burst" aria-hidden="true"><span class="ray ray-1"></span><span class="ray ray-2"></span><span class="ray ray-3"></span><span class="ray ray-4"></span></i></div>
+          <div class="service-card-copy">
+            <h3>Визуальный концепт</h3>
+            <p>Идея, сценарий, стилистика, раскадровка и ключевые кадры до начала производства.</p>
+          </div>
+        </article>
+
+        <article class="service-showcase-card service-card-gold reveal">
+          <div class="service-card-top"><span>A / 02</span><i class="service-figure figure-orbit" aria-hidden="true"><span class="orbit orbit-1"></span><span class="orbit orbit-2"></span><span class="orbit orbit-3"></span><span class="planet"></span></i></div>
+          <div class="service-card-copy">
+            <h3>AI-производство</h3>
+            <p>Генерация сцен, персонажей и объектов, анимация, монтаж, графика и саунд-дизайн.</p>
+          </div>
+        </article>
+
+        <article class="service-showcase-card service-card-light reveal">
+          <div class="service-card-top"><span>A / 03</span><i class="service-figure figure-formats" aria-hidden="true"><span class="format f-vertical">9:16</span><span class="format f-square">1:1</span><span class="format f-wide">16:9</span></i></div>
+          <div class="service-card-copy">
+            <h3>Контент-система</h3>
+            <p>Один мастер-ролик превращаем в пакет версий для рекламы, презентаций, MAX, Telegram и социальных сетей.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="process route-section section-shell" id="process">
+      <div class="route-intro reveal">
+        <p class="eyebrow">Этапы работы</p>
+        <h2><span>Понятный маршрут.</span><strong>Не магия.</strong></h2>
+        <p>Вы видите логику проекта на каждом этапе: от первого сообщения до финальных файлов.</p>
+      </div>
+
+      <div class="route-steps">
+        <article class="route-card reveal">
+          <span class="route-number">01</span>
+          <div><h3>Входящий запрос</h3><p>Получаем продукт, задачу, сроки и исходные материалы. Фиксируем цель и формат результата.</p></div>
+          <small>Старт</small>
+        </article>
+        <article class="route-card reveal">
+          <span class="route-number">02</span>
+          <div><h3>Мир и концепт</h3><p>Формируем идею, сценарный ход, стиль, композицию и ключевые кадры.</p></div>
+          <small>1–3 дня</small>
+        </article>
+        <article class="route-card reveal">
+          <span class="route-number">03</span>
+          <div><h3>Синтез и движение</h3><p>Создаём сцены, анимацию, монтаж, графику и звуковое оформление.</p></div>
+          <small>3–10 дней</small>
+        </article>
+        <article class="route-card reveal">
+          <span class="route-number">04</span>
+          <div><h3>Финальный пакет</h3><p>Передаём мастер-ролик и согласованные версии в нужных форматах.</p></div>
+          <small>Готово</small>
+        </article>
+      </div>
+    </section>
+
+    <section class="about director-manifesto section-shell" id="about">
+      <div class="director-title reveal">
+        <p class="eyebrow">Не просто генерация</p>
+        <h2>
+          <span>Нейросеть — это камера.</span>
+          <strong>Режиссура остаётся за нами.</strong>
+        </h2>
+      </div>
+      <div class="director-copy reveal">
+        <p>Мы не собираем случайные красивые кадры. Каждый проект получает собственную идею, ритм, цвет, композицию и понятную рекламную задачу.</p>
+        <p>Технологии ускоряют производство, но решения принимает команда: от первого визуального направления до финального монтажа и звука.</p>
+      </div>
+    </section>
+
+    <section class="brief section-shell" id="brief">
+      <div class="brief-copy reveal">
+        <p class="eyebrow">Обсудить проект</p>
+        <h2>Расскажите, какой ролик вам нужен.</h2>
+        <p>Оставьте контакт и кратко опишите задачу. Мы изучим проект и предложим подходящий формат производства.</p>
+        <a class="brief-telegram" href="https://t.me/Edvard_Sales" target="_blank" rel="noreferrer">Telegram @Edvard_Sales</a>
+      </div>
+
+      <form class="lead-form reveal" id="lead-form" novalidate>
+        <div class="form-grid">
+          <label><span>Ваше имя *</span><input type="text" name="name" autocomplete="name" required maxlength="80" placeholder="Имя"></label>
+          <label><span>Telegram или телефон *</span><input type="text" name="contact" autocomplete="tel" required maxlength="120" placeholder="@username или +7..."></label>
+          <label><span>Компания</span><input type="text" name="company" autocomplete="organization" maxlength="120" placeholder="Название компании"></label>
+          <label><span>Тип задачи</span><select name="projectType"><option value="Рекламный ролик">Рекламный ролик</option><option value="Ролик для презентации">Ролик для презентации</option><option value="Контент для социальных сетей">Контент для социальных сетей</option><option value="Другое">Другое</option></select></label>
+        </div>
+
+        <label class="form-message"><span>Расскажите о задаче *</span><textarea name="message" required minlength="10" maxlength="2000" rows="6" placeholder="Что нужно сделать, для какого продукта и к какому сроку"></textarea></label>
+        <label class="trap" aria-hidden="true">Сайт<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+        <label class="consent"><input type="checkbox" name="consent" required><span>Я ознакомился с <a href="./privacy.html" target="_blank">политикой обработки персональных данных</a> и даю <a href="./consent.html" target="_blank">согласие на обработку данных</a>.</span></label>
+        <button class="button button-submit" type="submit"><span>Отправить заявку</span></button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner section-shell">
+      <a class="brand" href="#top" aria-label="Royal AI Studio — наверх">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 72 56">
+            <path class="crown-outline" d="M10 39 7 17l17 14L36 7l12 24 17-14-3 22H10Z"/>
+            <path class="crown-detail" d="m10 39 14-8 12 8 12-8 14 8M24 31l12-24 12 24M14 46h44M19 51h34"/>
+          </svg>
+        </span>
+        <span class="brand-copy"><strong>Royal AI Studio</strong><small>Студия рекламных роликов</small></span>
+      </a>
+
+      <p class="footer-copy">© <span id="year"></span> Royal AI Studio</p>
+
+      <div class="footer-legal">
+        <a href="./privacy.html">Политика персональных данных</a>
+        <a href="./consent.html">Согласие на обработку данных</a>
+      </div>
+
+      <div class="socials" aria-label="Социальные сети">
+        <a class="social-link" href="https://max.ru/u/f9LHodD0cOKWs7pMNQB6ZqCMu29PzR8r-xuwNWbq_PEGcrSonupo_YeAdxk" target="_blank" rel="noreferrer" aria-label="Royal AI Studio в MAX">
+          <span class="social-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><defs><linearGradient id="max-gradient" x1="6" y1="42" x2="42" y2="6" gradientUnits="userSpaceOnUse"><stop stop-color="#00BFFF"/><stop offset="0.52" stop-color="#471AFF"/><stop offset="1" stop-color="#9500FF"/></linearGradient></defs><rect width="48" height="48" rx="14" fill="url(#max-gradient)"/><path fill="#fff" fill-rule="evenodd" d="M24 8.2C14.18 8.2 6.2 15.74 6.2 25c0 4.2 1.65 8.04 4.38 10.99l-1.04 5.87 6.3-2.38A18.7 18.7 0 0 0 24 41.8c9.82 0 17.8-7.54 17.8-16.8S33.82 8.2 24 8.2Zm0 9.05c-4.65 0-8.42 3.47-8.42 7.75s3.77 7.75 8.42 7.75 8.42-3.47 8.42-7.75-3.77-7.75-8.42-7.75Z"/></svg>
+          </span><span>MAX</span>
+        </a>
+        <a class="social-link" href="https://t.me/Edvard_Sales" target="_blank" rel="noreferrer" aria-label="Royal AI Studio в Telegram">
+          <span class="social-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#27A7E7"/><path d="M35.86 13.13 31.7 34.07c-.31 1.48-1.15 1.84-2.32 1.15l-6.34-4.67-3.06 2.94c-.34.34-.62.62-1.27.62l.46-6.45 11.74-10.61c.51-.45-.11-.7-.79-.25L15.6 25.93l-6.25-1.95c-1.36-.43-1.38-1.36.28-2.01l24.45-9.42c1.13-.42 2.12.25 1.78.58Z" fill="#fff"/></svg></span><span>Telegram</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
